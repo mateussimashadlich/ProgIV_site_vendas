@@ -1,0 +1,67 @@
+@import 'nav';
+@import 'footer';
+
+body{
+    background-color: #D4DCDD;
+}
+main{
+    
+    max-width: 500px;
+
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: grid;
+    justify-items: center;
+
+    font-family: 'Roboto', Arial;
+    
+    font-weight: 900;
+    
+    form{
+
+        display: grid;
+        
+        width: 100%;
+
+        input{       
+            outline: none;                 
+            border-radius: 10px;
+            border-style: none;
+            height: 28px;
+        }
+        
+        #box-tabela_produtos{
+            min-height: 160px;
+            background-color: white;
+            table{
+                border-spacing:0px;
+                th{
+                    background-color: #D4DCDD;
+                    width: 100%;
+                }
+                tr th, tr td{
+                    padding-right: 20px;
+                }
+            }
+        }        
+
+        #botao-pesquisar_produto{   
+            background-color: #5C8997;
+            color: #F11212;
+                     
+            outline: none;                 
+            border-radius: 10px;
+            border-style: none;
+
+            height: 28px;
+
+            font-family: 'Roboto', Arial;
+            font-weight: bold;
+            font-size: 18px;
+
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,64 @@
+@import 'nav';
+@import 'footer';
+
+body{
+    background-color: #D4DCDD;
+}
+main{
+    
+    max-width: 500px;
+
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: grid;
+    justify-items: center;
+
+    font-family: 'Roboto', Arial;
+    
+    font-weight: 600;
+    
+    form{
+
+        display: grid;
+        
+        width: 100%;
+
+        input, textarea, a{       
+            outline: none;                 
+            border-radius: 10px;
+            border-style: none;
+        }
+        
+        input, a{            
+            height: 28px;
+        }
+
+        #botoes-login{
+
+            #botao-cadastro{
+                text-align: center;
+                text-decoration: none;
+                float: right;           
+            }            
+
+            #botao-login, #botao-cadastro{
+                background-color: #5C8997;
+                color: #F11212;
+            }
+
+            #botao-login, #botao-cadastro{                
+                width: 140px;
+                height: 30px;
+
+                font-family: 'Roboto', Arial;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 21px;                
+
+                cursor: pointer;
+            }
+        }
+    }
+}

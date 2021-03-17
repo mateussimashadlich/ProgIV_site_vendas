@@ -1,0 +1,11 @@
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: $background_color;
+    font-family: 'Roboto', Arial;
+    font-weight: 800;
+    p{          
+        text-align: center;
+    }
+}

@@ -1,0 +1,91 @@
+nav {
+  background-color: #C4C4C4;
+  display: grid;
+  grid-template-columns: max-content;
+  column-gap: 24px;
+  grid-auto-flow: column;
+  font-family: 'Roboto', Arial;
+  font-weight: 600;
+  align-items: center; }
+  nav #logo {
+    padding: 5px 0px 5px 9px; }
+  nav #login-link {
+    justify-self: right;
+    text-decoration: none;
+    color: black;
+    margin-right: 96px; }
+  nav #login-link:hover {
+    color: #5a3436; }
+  nav #botoes-gerenciamento {
+    margin-left: 48px; }
+    nav #botoes-gerenciamento #botao-cadastros {
+      margin-right: 12px; }
+    nav #botoes-gerenciamento #botao-cadastros, nav #botoes-gerenciamento #botao-consultas {
+      display: inline-block;
+      cursor: pointer; }
+      nav #botoes-gerenciamento #botao-cadastros ul, nav #botoes-gerenciamento #botao-consultas ul {
+        display: none; }
+    nav #botoes-gerenciamento #botao-cadastros:hover ul, nav #botoes-gerenciamento #botao-consultas:hover ul {
+      background-color: #C4C4C4;
+      position: absolute;
+      display: block;
+      margin-top: -10px;
+      list-style-type: none; }
+    nav #botoes-gerenciamento #botao-cadastros:hover li, nav #botoes-gerenciamento #botao-consultas:hover li {
+      border-style: solid;
+      border-width: 0px 0px 3px 0px; }
+    nav #botoes-gerenciamento #botao-cadastros:hover li a, nav #botoes-gerenciamento #botao-consultas:hover li a {
+      width: 100%;
+      color: black;
+      text-decoration: none; }
+    nav #botoes-gerenciamento #botao-cadastros:hover li a:hover, nav #botoes-gerenciamento #botao-consultas:hover li a:hover {
+      color: #5a3436; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #C4C4C4;
+  font-family: 'Roboto', Arial;
+  font-weight: 800; }
+  footer p {
+    text-align: center; }
+
+body {
+  background-color: #D4DCDD; }
+
+main {
+  max-width: 500px;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  justify-items: center;
+  font-family: 'Roboto', Arial;
+  font-weight: 600; }
+  main form {
+    display: grid;
+    width: 100%; }
+    main form input, main form textarea, main form a {
+      outline: none;
+      border-radius: 10px;
+      border-style: none; }
+    main form input, main form a {
+      height: 28px; }
+    main form #botoes-login #botao-cadastro {
+      text-align: center;
+      text-decoration: none;
+      float: right; }
+    main form #botoes-login #botao-login, main form #botoes-login #botao-cadastro {
+      background-color: #5C8997;
+      color: #F11212; }
+    main form #botoes-login #botao-login, main form #botoes-login #botao-cadastro {
+      width: 140px;
+      height: 30px;
+      font-family: 'Roboto', Arial;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 21px;
+      cursor: pointer; }
+
+/*# sourceMappingURL=login_style.css.map */

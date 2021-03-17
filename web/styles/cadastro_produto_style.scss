@@ -1,0 +1,74 @@
+@import 'nav';
+@import 'footer';
+
+body{
+    background-color: #D4DCDD;
+}
+main{
+    
+    max-width: 500px;
+
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: grid;
+    justify-items: center;
+
+    font-family: 'Roboto', Arial;
+    
+    font-weight: 600;
+    
+    form{
+
+        display: grid;
+        
+        width: 100%;
+
+        input, textarea{       
+            outline: none;                 
+            border-radius: 10px;
+            border-style: none;
+        }
+        
+        input{
+            
+            height: 28px;
+        }
+
+        textarea{
+            height: 72px;
+            resize:none;
+        }
+
+        #botoes-cadastro_produto{
+
+            #botao-reset{
+                float: right;
+                background-color: #FF8F96;
+                color: #F4FFFF;                
+            }            
+
+            #botao-submit{
+                background-color: #5C8997;
+                color: #F11212;
+            }
+
+            #botao-submit, #botao-reset{                
+                width: 140px;
+                height: 30px;
+
+                font-family: 'Roboto', Arial;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 21px;
+
+                
+
+                cursor: pointer;
+            }
+        }
+    }
+
+
+}
